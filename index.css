@@ -20,6 +20,7 @@ body {
   );
   border-radius: 2%;
   position: relative;
+  cursor: pointer;
   padding-bottom: 0.5rem;
 }
 
@@ -90,23 +91,16 @@ body {
   margin: 90px auto;
   border-radius: 2%;
   margin-top: 40px;
-  border: 1px solid rgb(255, 255, 255);
-  /* outline: 20px; */
-  /* box-shadow: 2px 0 20px rgb(255, 255, 255); */
   cursor: pointer;
-  /* transform: rotate(360deg);
-  transition: transform 2s; */
-  /* animation: transform 5s infinite linear; */
-  /* animation-delay: 2s; */
 }
-/* @keyframes rotation {
-  0% {
-    transform: translateY(0, 10%) rotate(0, 180deg);
-  }
-  100% {
-    transform: translateY(0, 10%) rotate(0, 180deg);
-  }
-} */
+
+.image:hover{
+  outline:1px solid rgb(165, 164, 164);
+  outline-offset: 3px;
+  transform: rotateY(360deg);
+  transition: 2s;
+}
+
 
 div #ramadan {
   height: 240px;
