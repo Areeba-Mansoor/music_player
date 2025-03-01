@@ -209,6 +209,7 @@ audio {
   transform: translate(15px);
   transition: 3s;
 }
-#wish_list{
+
+#next{
   width: 1.5vw;
 }
